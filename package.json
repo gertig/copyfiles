@@ -4,8 +4,8 @@
   "description": "copy some files",
   "main": "index.js",
   "bin": {
-    "copyfiles": "./copyfiles",
-    "copyup": "./copyup"
+    "copyfiles": "./.bin/copyfiles",
+    "copyup": "./.bin/copyup"
   },
   "scripts": {
     "test": "tape test/test.*.js | tspec"
